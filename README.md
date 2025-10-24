@@ -50,10 +50,15 @@ docker-compose up --build
 
 2. Kiểm thử nhanh (Postman)
 Đăng ký: POST http://localhost:3003/auth/register
+
 Đăng nhập: POST http://localhost:3003/auth/login
+
 Thêm sản phẩm: POST http://localhost:3003/products/api/products
+
 Đặt hàng: POST http://localhost:3003/products/api/products/buy
+
 Lấy sản phẩm theo id: GET http://localhost:3003/products/api/products/
+
 ---
 
 ## 🔐 AUTH SERVICE (`/auth`)
